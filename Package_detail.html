@@ -1,0 +1,699 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- font link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="sass/main.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+       <!-- section ribbon -->
+    <section class="ribbon">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="site_detail">
+
+            <i class="fa-solid fa-envelope"></i> <span>Someone@gmail.com </span> &nbsp;|
+            <i class="fa-solid fa-phone"></i> <span>9111116666 </span>&nbsp;&nbsp;|
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+
+        <div class="col-md-4 mr-auto textalignclass">
+          <span class="site_login">
+            <!-- <img src="images/login.png" alt="" class="img-fluid lggg" width="10%"> <span>Login</span> &nbsp; | -->
+            <div class="dropdown">
+              <span class="dropdown-toggle" type="" data-toggle="dropdown" aria-expanded="false" href="login.html">
+              <img src="images/1.jpg" alt="" class="img-fluid myself"> Login
+              </span>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="login.html">Login</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div> &nbsp;
+           <span>Register </span>
+            </div>
+        
+          </span>
+        </div>
+
+    </section>
+          <!-- section navbar -->
+        <section class="navbarpart" id="navbar">
+          <div class="row">
+            <div class="col-md-2 imm">
+              <a class="" href="index.html"><img src="images/ll-removebg-preview.png" alt="" class="ll"></a>
+              </div>
+              <div class="col-md-8 imm"> 
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <!-- <a class="navbar-brand" href="index.html"><img src="images/ll-removebg-preview.png" alt="" class="ll"></a> -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                 
+                    <li class="nav-item active ">
+                      <a class="nav-link" href="index.html"> 
+                         <i class="fa-solid fa-house"></i>&nbsp; Home </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html"  >
+                       <i class="fa-solid fa-plane-departure"></i>&nbsp; Flight</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">
+                       <i class="fa-solid fa-car"></i>&nbsp; Vechile</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Holiday.html">
+                       <i class="fa-solid fa-umbrella-beach"></i> &nbsp; Holiday</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="modal" data-target="#exampleModal">
+                    <i class="fa-brands fa-cc-visa"></i>&nbsp; Visa</a>
+                  </li>
+      
+                  </ul>
+             
+                </div>
+              </nav>
+            </div>
+            <div class="col-md-2">
+              <div class="smalladd">
+                <img src="images/pkg4.jpg" alt="" class="smallad">
+              </div>
+            </div>
+            </div>
+        
+        </section>
+      
+      
+      
+      
+      <!-- Modal -->
+      <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"><i class="fa-brands fa-cc-visa"></i> &nbsp; Visa</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                 
+      
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">Full Name *</label>
+                    <input type="text" class="form-control " id="inputEmail4" placeholder="Name">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword4">Phone No *</label>
+                    <input type="text" class="form-control" id="inputPassword4" placeholder="Phone Number">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email *</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email-Address">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="exampleFormControlSelect1">Country</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>Nepal</option>
+                      <option>Singhapore</option>
+                      <option>India</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                </div>
+               
+                <div class="form-group form-row">
+                  <label for="exampleFormControlSelect1">Visa Type</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Single Entry Visa</option>
+            <option>Multiple Entry Visa</option>
+            <option>Tourists Visa</option>
+            <option>Residence Visa</option>
+      
+          </select>
+                </div>
+                <button type="submit" class="submit">Submit</button>
+              </form>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    <!-- section its all -->
+    <section class="allpage">
+        <div class="linear">
+            <div class="alltext">
+             <h2 >CHITWAN NATIONAL PARK</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, et beatae minus sed veniam voluptatem quibusdam sunt possimus quasi aut repudiandae tempore, consequuntur id quo laborum veritatis illum aspernatur. Expedita!</p>
+            </div> 
+         </div>
+   
+    </section> <br>
+    <!-- section detaipart -->
+    <section class="detailpage">
+        <div class="row">
+
+            <div class="col-md-12">
+                <h4>Kathmandu National Park Tour</h4>
+                <p>4 days and 3 Nights</p>
+            </div>
+
+        </div>
+        <div class="row">
+            <div id="GalleryHolder">
+             
+                <div class="col-lg-8 col-md-12">
+                    <div class="GalleryImage " id="GalleryTabHolder">
+                        <a href="/#"><img src="images/3.jpg" width="100%" class="img-fluid GalleryTab" /></a>
+                    </div>
+                    <div class="GalleryImage">
+                        <a href=""><img src="images/8.jpg" class="img-fluid GalleryTab" width="100%" /></a>
+                    </div>
+                    <div class="GalleryImage">
+                        <a href="/#"><img src="images/6.jpg" class="img-fluid GalleryTab" width="100%" /></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="overview">
+                        <h5>Overview</h5>
+                        <h6> A national park is an area set aside by a national government for the preservation of the
+                            natural environment. A national park may be set aside for public recreation and enjoyment or
+                            for its historical or scientific interest while keeping most landscapes and their
+                            accompanying plants and animals in their natural state.
+                            A national park is an area set aside by a national government for the preservation of the
+                            natural environment. A national park may be set aside for public recreation and enjoyment or
+                            for its historical or scientific.
+
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+    </section>
+    <!-- section iternary  -->
+    <section class="iternary detailpage">
+       
+     
+        <div class="row">
+            <div class="col-md-8 iternary12 ">
+                <ul class="nav nav-pills mychoice mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home"
+                            type="button" role="tab" aria-controls="pills-home" aria-selected="true">Iternary</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile"
+                            type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Terms &
+                            Condition</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#pills-contact"
+                            type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Include &
+                            Exclude</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-toggle="pill"
+                            data-target="#pills-contact67" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Reviews</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        <i class="fa-solid fa-plane-departure" style="color:#ea8c22;"></i> &nbsp; &nbsp;
+                                        Day 1:: Nepal Visit and Kathmandu Sightseen
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        first item's accordion body.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        <i class="fa-solid fa-plane-departure" style="color:#ea8c22;"></i> &nbsp; &nbsp;
+                                        Day 2:: Nepal Visit and Kathmandu Sightseen
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        second item's accordion body. Let's imagine this being filled with some actual
+                                        content.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        <i class="fa-solid fa-plane-departure" style="color:#ea8c22;"></i> &nbsp;&nbsp;
+                                        Day 3:: Nepal Visit and Kathmandu Sightseen
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        third item's accordion body. Nothing more exciting happening here in terms of
+                                        content, but just filling up the space to make it look, at least at first
+                                        glance, a bit more representative of how this would look in a real-world
+                                        application.</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                       <div class="termbox">
+                         
+                      
+                       
+                        <ol>
+                            <li>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo maxime
+                                    fuga maiores eum nihil rerum, nemo voluptates possimus molestias laborum temporibus
+                                    perferendis corrupti quam ut. Magni quisquam ratione deleniti!</p>
+                            </li>
+                            <li>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo maxime
+                                    fuga maiores eum nihil rerum, nemo voluptates possimus molestias laborum temporibus
+                                    perferendis corrupti quam ut. Magni quisquam ratione deleniti!</p>
+                            </li>
+                            <li>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo maxime
+                                    fuga maiores eum nihil rerum, nemo voluptates possimus molestias laborum temporibus
+                                    perferendis corrupti quam ut. Magni quisquam ratione deleniti!</p>
+                            </li>
+                            <li>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo maxime
+                                    fuga maiores eum nihil rerum, nemo voluptates possimus molestias laborum temporibus
+                                    perferendis corrupti quam ut. Magni quisquam ratione deleniti!</p>
+                            </li>
+                        </ol>
+                    </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class="termbox">
+                         
+                      
+                       
+                            <ol>
+                                <li>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo maxime
+                                        fuga maiores eum nihil rerum, nemo voluptates possimus molestias laborum temporibus
+                                        perferendis corrupti quam ut. Magni quisquam ratione deleniti!</p>
+                                </li>
+                                <li>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo maxime
+                                        fuga maiores eum nihil rerum, nemo voluptates possimus molestias laborum temporibus
+                                        perferendis corrupti quam ut. Magni quisquam ratione deleniti!</p>
+                                </li>
+                                <li>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo maxime
+                                        fuga maiores eum nihil rerum, nemo voluptates possimus molestias laborum temporibus
+                                        perferendis corrupti quam ut. Magni quisquam ratione deleniti!</p>
+                                </li>
+                                <li>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo maxime
+                                        fuga maiores eum nihil rerum, nemo voluptates possimus molestias laborum temporibus
+                                        perferendis corrupti quam ut. Magni quisquam ratione deleniti!</p>
+                                </li>
+                            </ol>
+                        </div>    
+                    
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact67" role="tabpanel" aria-labelledby="pills-contact-tab">
+                      <form style="padding:1rem;">
+                        <h6>Reviews</h6>
+                        <div class="row">
+                          <div class="col">
+                            <label for="exampleFormControlTextarea1">Name:</label>
+                            <input type="text" class="form-control" placeholder="First name">
+                          </div>
+                          <div class="col">
+                            <label for="exampleFormControlTextarea1">E-mail:</label>
+                            <input type="email" class="form-control" placeholder="Last name">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlTextarea1">Example textarea</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn" style="background-color:#009f42; color:white;">Submit</button>
+                      </form>    
+                    
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="bookbox">
+                    <form>
+                        <h4>  Book Now</h4>
+
+
+                        <div class="form-group">
+                            <br>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Full Name">
+
+                        </div>
+                        <div class="form-group">
+
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Email-Address">
+                        </div>
+                        <div class="form-group">
+
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Address">
+
+                        </div>
+                        <div class="form-group">
+
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Phone">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1"></label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>No.of People</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <br>
+                            <input type="date" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="mm/dd/yy">
+
+                        </div>
+                        <button type="submit" class="btn" style="background-color:#009f42; color:white;">Book Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section related package -->
+    <section class="related">
+        <h4>Related Packages</h4> <br>
+        <div class="row">
+            <div class="col-md-3">
+      <a href="Package_detail.html" class="href">       <div class="card" style="width: 18rem;">
+                <div class="item animated wow fadeIn">
+                  <img src="images/stupa.jpg" alt="" class="img-fluid">
+                  <div class="overlay left-overlay">
+    <div class="text">FLY NEPAL TRAVEL</div>
+  </div>
+              </div>
+                <div class="card-body">
+                  <span class="days"> 1D/2N</span>
+                  <h5 class="card-title">Chitwan National Park</h5>
+                  <p class="card-text">Domestic tourism is tourism involving residents of one country traveling only within that country. </p>
+                 
+                </div>
+              </div></a> 
+            </div>
+            <div class="col-md-3">
+              <a href="Package_detail.html" class="href"> 
+                    <div class="card" style="width: 18rem;">
+                <div class="item animated wow fadeIn">
+                  <img src="images/stupa.jpg" alt="" class="img-fluid">
+                  <div class="overlay left-overlay">
+    <div class="text">FLY NEPAL TRAVEL</div>
+  </div>
+              </div>
+                <div class="card-body">
+                  <span class="days"> 1D/2N</span>
+                  <h5 class="card-title">Pokhara</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 
+                </div>
+              </div></a>
+            </div>
+            <div class="col-md-3">
+              <a href="Package_detail.html" class="href">    
+                <div class="card" style="width: 18rem;">
+                <div class="item animated wow fadeIn">
+                  <img src="images/stupa.jpg" alt="" class="img-fluid">
+                  <div class="overlay left-overlay">
+    <div class="text"> FLY NEPAL TRAVEL</div>
+  </div>
+              </div>
+                <div class="card-body">
+                  <span class="days"> 1D/2N</span>
+                  <h5 class="card-title">Mustang</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 
+                </div>
+              </div></a>
+            </div>
+            <div class="col-md-3">
+        
+              <a href="Package_detail.html" class="href"> 
+                <div class="card" style="width: 18rem;">
+                <div class="item animated wow fadeIn">
+                  <img src="images/stupa.jpg" alt="" class="img-fluid">
+                  <div class="overlay left-overlay">
+    <div class="text">FLY NEPAL TRAVEL</div>
+  </div>
+              </div>
+                <div class="card-body">
+                  <span class="days"> 1D/2N</span>
+                  <h5 class="card-title">Adventure </h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 
+                </div>
+              </div></a>
+            </div>
+          </div>
+    </section>
+    <!-- footer part -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#009f42" fill-opacity="1"
+            d="M0,64L120,101.3C240,139,480,213,720,234.7C960,256,1200,224,1320,208L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+        </path>
+    </svg>
+    <section class="footer">
+      
+        <div class="row">
+    <div class="col-md-3 footer_ji">
+    <img src="images/ll.jpg" alt="" class="img-fluid footerlogo "> <br>
+    <i class="fa-solid fa-location-dot" ></i> &nbsp; <span class="new"> New Baneshwor,Kathmandu</span> <br>
+    <i class="fa-solid fa-phone" style="color:white;"></i> &nbsp; <span class="new">9810000000</span> <br>
+    <i class="fa-solid fa-envelope"  style="color:white;"></i> &nbsp;<span class="new">someone@gmail.com</span>
+    </div>
+    <div class="col-md-2 col-6">
+    <h5 style="color:white;">Quick Links</h5>
+    <div class="linksharu"> 
+    <a href="index.html" class="href" style="color:white;">Home</a>
+    <a href="about.html" class="href" style="color:white;">About</a>
+    <a href="gallery.html" class="href" style="color:white;">Gallery</a>
+    <a href="FAQ.html" class="href" style="color:white;">FAQs</a>
+    <a href="privacy.html" class="href" style="color:white;">Privacy</a>
+    <a href="contact.html" class="href" style="color:white;">Contact Us</a>
+    </div>
+    </div>
+    <div class="col-md-4 col-6">
+    <h5 style="color:white;">Popular Packages</h5>
+    <div class="linksharu"> 
+    <a href="Package_detail.html" class="href" style="color:white;">Kathmandu chitwan Tour 4night , 5days</a>
+    <a href="Package_detail.html" class="href" style="color:white;">Kathmandu Pokhara Tour 4night , 5days</a>
+    <a href="Package_detail.html" class="href" style="color:white;">chitwan Pokhara Tour 4night , 5days</a>
+    <a href="Package_detail.html" class="href" style="color:white;">Kathmandu chitwan Tour 4night , 5days</a>
+    </div>
+    </div>
+    <div class="col-md-3">
+    <h5 style="color:white;">Subscribe NewsLetter</h5>
+    <form class="example" action="/action_page.php">
+      <input type="text" placeholder="Email-Address" name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form> <br>
+    <div class="connect"> 
+    <h6 style="color:white;">Connect with Us</h6>
+    <i class="fa-brands fa-facebook-f licon"></i>
+    <i class="fa-brands fa-twitter licon"></i>
+    <i class="fa-brands fa-youtube licon"></i>
+    <i class="fa-brands fa-linkedin-in licon"></i>
+    </div>
+    
+    </div>
+        </div>
+      </section>
+    <!-- last -->
+    <section class="last">
+        <div class="row">
+            <div class="col-md-12">
+                <h6 style="color:black; text-align:center;">Developed By:Next Aussie Tech</h6>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <!-- image tab -->
+    <script>
+        const tabs = document.querySelectorAll(".GalleryTab");
+        const tabOpacity = 0.8;
+        // The images that will be changed.
+        const galleryImage = document.querySelectorAll(".GalleryImage");
+        // First image to show.
+        let currentImage = 0;
+        // Pause time on image user has clicked.
+        const imagePauseTime = 10000;
+        // Normal pause time for automatic change.
+        const nextImageTime = 6000;
+
+        let imageTimer = 0;
+        let timerTimeOut = 0;
+
+        function ImageChanger() {
+            // set the opacity for each tab back to semi-opacity. Set the main images to be hidden.
+            tabs.forEach(function (value, i, arr) {
+                tabs[i].style.opacity = tabOpacity;
+                tabs[i].style.filter = "grayscale(1)";
+                tabs[i].style.filter = "gray";
+                tabs[i].style.filter = "blur(0.6px)";
+                galleryImage[i].style.display = "none";
+            });
+
+            // Now set the current tab to be solid.
+            tabs[currentImage].style.opacity = "1";
+            tabs[currentImage].style.filter = "grayscale(0)";
+            tabs[currentImage].style.filter = "none";
+
+            // unhide the main image that should be shown
+            galleryImage[currentImage].style.display = "flex";
+
+            // Check if the current banner is more than the total of the amount in the array, if it is then go back to 0.
+            currentImage >= galleryImage.length - 1 ? (currentImage = 0) : currentImage++;
+        }
+
+        function ImagePause() {
+            // clear the auto banner changer timer.
+            clearInterval(imageTimer);
+            // In case the user has clicked a tab multiple times, make sure we're only running the latest timeout to stop multiple instances of the interval timer being created.
+            clearTimeout(timerTimeOut);
+            timerTimeOut = setTimeout(function () {
+                // Manually fire off the banner change function since we've come to the end of the pause period.
+                ImageChanger();
+                // Start the bannerTimer interval to take over firing the bannerChange function automatically.
+                imageTimer = setInterval(ImageChanger, nextImageTime);
+            }, imagePauseTime);
+        }
+
+        // ie polyfill for .forEach()
+        (function () {
+            if (typeof NodeList.prototype.forEach === "function") return false;
+            NodeList.prototype.forEach = Array.prototype.forEach;
+        })();
+
+        // Setup and start an interval to go through the banners automatically.
+        imageTimer = setInterval(ImageChanger, nextImageTime);
+
+        // For each of the tabs, set up a click event handler to change the banner image.
+        tabs.forEach(function (value, i, arr) {
+            arr[i].addEventListener("click", function () {
+                currentImage = i;
+                ImageChanger();
+                // Run a timeout to 'pause' the banner changes, on completion set up a new interval timer.
+                ImagePause();
+            });
+        });
+        // Run the banner changer to display the first banner since the document is now loaded but the timer hasn't yet fired.
+        ImageChanger();
+
+    </script>
+
+<!-- topnavbar -->
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+</body>
+
+</html>
